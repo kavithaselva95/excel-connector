@@ -1,0 +1,131 @@
+[
+    {
+        "name": "sales - Sheet1",
+        "description": "Sheet 'Sheet1' in 'sales.xlsx' (101 rows, 3 columns)",
+        "datasetId": {
+            "file": "sales.xlsx",
+            "sheet": "Sheet1",
+            "conn": "excel"
+        },
+        "properties": {
+            "last_modified": "2025-04-01T10:30:00Z",
+            "file_size_bytes": 12345
+        },
+        "fields": [
+            {
+                "name": "ID",
+                "type": "BIGINT",
+                "properties": {
+                    "null_pct": 0.00,
+                    "distinct_pct": 99.01,
+                    "min_value": "1",
+                    "max_value": "101",
+                    "avg_value": 51.0,
+                    "row_count": 101,
+                    "sample_preview": "[[\"1\",\"100.50\",\"2025-01-01\"],[\"2\",\"200.75\",\"2025-01-02\"],[\"3\",\"300.00\",\"2025-01-03\"]]"
+                }
+            },
+            {
+                "name": "Amount",
+                "type": "DOUBLE",
+                "properties": {
+                    "null_pct": 0.00,
+                    "distinct_pct": 99.01,
+                    "min_value": "100.50",
+                    "max_value": "999.99",
+                    "avg_value": 550.245,
+                    "row_count": 101,
+                    "sample_preview": "[[\"1\",\"100.50\",\"2025-01-01\"],[\"2\",\"200.75\",\"2025-01-02\"],[\"3\",\"300.00\",\"2025-01-03\"]]"
+                }
+            },
+            {
+                "name": "Date",
+                "type": "TIMESTAMP",
+                "properties": {
+                    "null_pct": 0.00,
+                    "distinct_pct": 99.01,
+                    "min_value": "2025-01-01",
+                    "max_value": "2025-04-11",
+                    "avg_value": null,
+                    "row_count": 101,
+                    "sample_preview": "[[\"1\",\"100.50\",\"2025-01-01\"],[\"2\",\"200.75\",\"2025-01-02\"],[\"3\",\"300.00\",\"2025-01-03\"]]"
+                }
+            }
+        ]
+    },
+    {
+        "name": "report - Summary",
+        "description": "Sheet 'Summary' in 'report.xlsx' (5 rows, 2 columns)",
+        "datasetId": {
+            "file": "report.xlsx",
+            "sheet": "Summary",
+            "conn": "excel"
+        },
+        "properties": {
+            "last_modified": "2025-04-01T10:35:00Z",
+            "file_size_bytes": 5678
+        },
+        "fields": [
+            {
+                "name": "Metric",
+                "type": "STRING",
+                "properties": {
+                    "row_count": 5
+                }
+            },
+            {
+                "name": "Value",
+                "type": "DOUBLE",
+                "sourceFields": [
+                    {
+                        "datasetId": {
+                            "file": "report.xlsx",
+                            "sheet": "Sheet1"
+                        },
+                        "fieldName": "Amount"
+                    }
+                ],
+                "properties": {
+                    "named_range": "SalesTotal",
+                    "row_count": 5
+                }
+            }
+        ]
+    },
+    {
+        "name": "report - Sheet1",
+        "description": "Sheet 'Sheet1' in 'report.xlsx' (50 rows, 3 columns)",
+        "datasetId": {
+            "file": "report.xlsx",
+            "sheet": "Sheet1",
+            "conn": "excel"
+        },
+        "properties": {
+            "last_modified": "2025-04-01T10:35:00Z",
+            "file_size_bytes": 4000
+        },
+        "fields": [
+            {
+                "name": "Region",
+                "type": "STRING",
+                "properties": {
+                    "row_count": 50
+                }
+            },
+            {
+                "name": "Amount",
+                "type": "DOUBLE",
+                "properties": {
+                    "row_count": 50
+                }
+            },
+            {
+                "name": "Column_3",
+                "type": "STRING",
+                "properties": {
+                    "row_count": 50
+                }
+            }
+        ]
+    }
+]

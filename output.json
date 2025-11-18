@@ -1,0 +1,747 @@
+[ {
+  "name" : "complex - Raw",
+  "description" : "Sheet 'Raw' in 'complex.xlsx' (6 rows, 4 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:53.259769200Z",
+    "file_size_bytes" : 12288
+  },
+  "fields" : [ {
+    "name" : "ID",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "1.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 3.0,
+      "null_pct" : 0.0,
+      "max_value" : "5.0",
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"95.5\",\"Pass\",\"Good\"],[\"2.0\",\"82.0\",\"Pass\",\"\"],[\"3.0\",\"67.3\",\"Fail\",\"Review\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Score",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "67.3",
+      "distinct_pct" : 100.0,
+      "avg_value" : 81.36000000000001,
+      "null_pct" : 0.0,
+      "max_value" : "95.5",
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"95.5\",\"Pass\",\"Good\"],[\"2.0\",\"82.0\",\"Pass\",\"\"],[\"3.0\",\"67.3\",\"Fail\",\"Review\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Status",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 40.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"95.5\",\"Pass\",\"Good\"],[\"2.0\",\"82.0\",\"Pass\",\"\"],[\"3.0\",\"67.3\",\"Fail\",\"Review\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Notes",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 40.0,
+      "avg_value" : null,
+      "null_pct" : 60.0,
+      "max_value" : null,
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"95.5\",\"Pass\",\"Good\"],[\"2.0\",\"82.0\",\"Pass\",\"\"],[\"3.0\",\"67.3\",\"Fail\",\"Review\"]]"
+    },
+    "sourceFields" : [ ]
+  } ]
+}, {
+  "name" : "complex - Calc",
+  "description" : "Sheet 'Calc' in 'complex.xlsx' (6 rows, 4 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:53.259769200Z",
+    "file_size_bytes" : 12288
+  },
+  "fields" : [ {
+    "name" : "ID",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "1.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 3.0,
+      "null_pct" : 0.0,
+      "max_value" : "5.0",
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"B1*0.1\",\"Raw!B2 + B1\",\"IF(C1>100,\\\"High\\\",\\\"Low\\\")\"],[\"2.0\",\"B2*0.15\",\"Raw!B3 + B2\",\"IF(C2>90,\\\"High\\\",\\\"Low\\\")\"],[\"3.0\",\"B3*0.2\",\"Raw!B4 + B3\",\"IF(C3>80,\\\"High\\\",\\\"Low\\\")\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    } ]
+  }, {
+    "name" : "Bonus",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"B1*0.1\",\"Raw!B2 + B1\",\"IF(C1>100,\\\"High\\\",\\\"Low\\\")\"],[\"2.0\",\"B2*0.15\",\"Raw!B3 + B2\",\"IF(C2>90,\\\"High\\\",\\\"Low\\\")\"],[\"3.0\",\"B3*0.2\",\"Raw!B4 + B3\",\"IF(C3>80,\\\"High\\\",\\\"Low\\\")\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    } ]
+  }, {
+    "name" : "Total",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"B1*0.1\",\"Raw!B2 + B1\",\"IF(C1>100,\\\"High\\\",\\\"Low\\\")\"],[\"2.0\",\"B2*0.15\",\"Raw!B3 + B2\",\"IF(C2>90,\\\"High\\\",\\\"Low\\\")\"],[\"3.0\",\"B3*0.2\",\"Raw!B4 + B3\",\"IF(C3>80,\\\"High\\\",\\\"Low\\\")\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    } ]
+  }, {
+    "name" : "Flag",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 5,
+      "sample_preview" : "[[\"1.0\",\"B1*0.1\",\"Raw!B2 + B1\",\"IF(C1>100,\\\"High\\\",\\\"Low\\\")\"],[\"2.0\",\"B2*0.15\",\"Raw!B3 + B2\",\"IF(C2>90,\\\"High\\\",\\\"Low\\\")\"],[\"3.0\",\"B3*0.2\",\"Raw!B4 + B3\",\"IF(C3>80,\\\"High\\\",\\\"Low\\\")\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Total"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    }, {
+      "datasetId" : {
+        "sheet" : "Calc"
+      },
+      "fieldName" : "Bonus"
+    } ]
+  } ]
+}, {
+  "name" : "complex - Tiny",
+  "description" : "Sheet 'Tiny' in 'complex.xlsx' (2 rows, 1 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:53.259769200Z",
+    "file_size_bytes" : 12288
+  },
+  "fields" : [ {
+    "name" : "X",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 1,
+      "sample_preview" : "[[\"Y\"]]"
+    },
+    "sourceFields" : [ ]
+  } ]
+}, {
+  "name" : "complex - EmptyCol",
+  "description" : "Sheet 'EmptyCol' in 'complex.xlsx' (3 rows, 3 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:53.259769200Z",
+    "file_size_bytes" : 12288
+  },
+  "fields" : [ {
+    "name" : "ID",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "1.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 1.5,
+      "null_pct" : 0.0,
+      "max_value" : "2.0",
+      "row_count" : 2,
+      "sample_preview" : "[[\"1.0\",\"\",\"100.0\"],[\"2.0\",\"\",\"200.0\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Column_2",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 0.0,
+      "avg_value" : null,
+      "null_pct" : 100.0,
+      "max_value" : null,
+      "row_count" : 2,
+      "sample_preview" : "[[\"1.0\",\"\",\"100.0\"],[\"2.0\",\"\",\"200.0\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Value",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "100.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 150.0,
+      "null_pct" : 0.0,
+      "max_value" : "200.0",
+      "row_count" : 2,
+      "sample_preview" : "[[\"1.0\",\"\",\"100.0\"],[\"2.0\",\"\",\"200.0\"]]"
+    },
+    "sourceFields" : [ ]
+  } ]
+}, {
+  "name" : "reports - Sheet1",
+  "description" : "Sheet 'Sheet1' in 'reports.xlsx' (102 rows, 3 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:55.091619400Z",
+    "file_size_bytes" : 14183
+  },
+  "fields" : [ {
+    "name" : "ID",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "1.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 51.0,
+      "null_pct" : 0.0,
+      "max_value" : "101.0",
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Amount",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "100.5",
+      "distinct_pct" : 100.0,
+      "avg_value" : 550.5,
+      "null_pct" : 0.0,
+      "max_value" : "1000.5",
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Date",
+    "type" : "TIMESTAMP",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  } ]
+}, {
+  "name" : "reports - Summary",
+  "description" : "Sheet 'Summary' in 'reports.xlsx' (4 rows, 2 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:53:55.091619400Z",
+    "file_size_bytes" : 14183
+  },
+  "fields" : [ {
+    "name" : "Metric",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 3,
+      "sample_preview" : "[[\"Total\",\"SUM([1]Sheet1!B2:B102)\"],[\"Average\",\"AVERAGE([1]Sheet1!B2:B102)\"],[\"Count\",\"COUNTA([1]Sheet1!B2:B102)\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    }, {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    }, {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    } ]
+  }, {
+    "name" : "Value",
+    "type" : "STRING",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 3,
+      "sample_preview" : "[[\"Total\",\"SUM([1]Sheet1!B2:B102)\"],[\"Average\",\"AVERAGE([1]Sheet1!B2:B102)\"],[\"Count\",\"COUNTA([1]Sheet1!B2:B102)\"]]"
+    },
+    "sourceFields" : [ {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    }, {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    }, {
+      "datasetId" : {
+        "sheet" : "Summary"
+      },
+      "fieldName" : "Value"
+    } ]
+  } ]
+}, {
+  "name" : "sales - Sheet1",
+  "description" : "Sheet 'Sheet1' in 'sales.xlsx' (102 rows, 3 columns)",
+  "properties" : {
+    "last_modified" : "2025-11-14T04:54:00.425659800Z",
+    "file_size_bytes" : 11911
+  },
+  "fields" : [ {
+    "name" : "ID",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "1.0",
+      "distinct_pct" : 100.0,
+      "avg_value" : 51.0,
+      "null_pct" : 0.0,
+      "max_value" : "101.0",
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Amount",
+    "type" : "DOUBLE",
+    "properties" : {
+      "min_value" : "100.5",
+      "distinct_pct" : 100.0,
+      "avg_value" : 550.5,
+      "null_pct" : 0.0,
+      "max_value" : "1000.5",
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  }, {
+    "name" : "Date",
+    "type" : "TIMESTAMP",
+    "properties" : {
+      "min_value" : null,
+      "distinct_pct" : 100.0,
+      "avg_value" : null,
+      "null_pct" : 0.0,
+      "max_value" : null,
+      "row_count" : 101,
+      "sample_preview" : "[[\"1.0\",\"100.5\",\"2025-01-01\"],[\"2.0\",\"109.5\",\"2025-01-02\"],[\"3.0\",\"118.5\",\"2025-01-03\"]]"
+    },
+    "sourceFields" : [ ]
+  } ]
+} ]
